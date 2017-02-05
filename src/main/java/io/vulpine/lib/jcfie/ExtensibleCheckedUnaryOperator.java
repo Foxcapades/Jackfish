@@ -1,7 +1,7 @@
 package io.vulpine.lib.jcfie;
 
 /**
- * @param <T> Param & return type
+ * @param <T> Param &amp; return type
  * @param <E> Throwable type
  *
  * @see java.util.function.UnaryOperator

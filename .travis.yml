@@ -6,6 +6,7 @@ jdk:
 
 before_install:
 - chmod +x gradlew
+- echo "\n" >> config.gradle
 - echo 'ext.OSSRH_USERNAME="lol"' >> config.gradle
 - echo 'ext.OSSRH_PASSWORD="no"' >> config.gradle
 

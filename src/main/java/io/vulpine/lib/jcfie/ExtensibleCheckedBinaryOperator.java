@@ -1,7 +1,7 @@
 package io.vulpine.lib.jcfie;
 
 /**
- * @param <T> Input parameter & return type
+ * @param <T> Input parameter &amp;: return type
  * @param <E> Throwable type
  *
  * @see java.util.function.BinaryOperator
