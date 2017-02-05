@@ -4,7 +4,7 @@ sudo: false
 jdk:
 - oraclejdk8
 
-before_install
+before_install:
 - chmod +x gradlew
 - echo 'ext.OSSRH_USERNAME="lol"' >> config.gradle
 - echo 'ext.OSSRH_PASSWORD="no"' >> config.gradle
