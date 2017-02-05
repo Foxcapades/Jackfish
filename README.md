@@ -1,0 +1,1 @@
+# Java Checked Functional Interfaces
