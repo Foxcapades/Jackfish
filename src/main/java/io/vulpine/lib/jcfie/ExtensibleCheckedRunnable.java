@@ -22,11 +22,10 @@
  * SOFTWARE.
  */
 
-package io.vulpine.lib.jcfi;
-
-import io.vulpine.lib.jcfie.ExtensibleCheckedFunction;
+package io.vulpine.lib.jcfie;
 
 @FunctionalInterface
-public interface CheckedFunction < P, R >
-extends ExtensibleCheckedFunction < P, R, Exception >
-{}
+public interface ExtensibleCheckedRunnable < E extends Throwable >
+{
+  void run() throws E;
+}

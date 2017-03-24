@@ -21,12 +21,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-
 package io.vulpine.lib.jcfi;
 
-import io.vulpine.lib.jcfie.ExtensibleCheckedFunction;
+import io.vulpine.lib.jcfie.ExtensibleCheckedRunnable;
 
-@FunctionalInterface
-public interface CheckedFunction < P, R >
-extends ExtensibleCheckedFunction < P, R, Exception >
-{}
+public interface CheckedRunnable
+extends ExtensibleCheckedRunnable < Exception > {}
